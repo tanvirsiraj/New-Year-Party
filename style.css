@@ -428,3 +428,51 @@ section {
     margin-left: -5px;
 
 }
+
+/* footer  */
+footer {
+    background: #070211;
+    padding-block: 80px;
+}
+
+.footer-content-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact img {
+    width: 24px;
+
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.15);
+    margin-block: 50px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-icon img {
+    width: 64px;
+    height: 64px;
+
+}
