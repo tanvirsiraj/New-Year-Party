@@ -272,3 +272,73 @@ section {
     outline: 15px solid #F00;
     border-radius: 100%;
 }
+
+/* discount section  */
+.discount-sec-header {
+    text-align: center;
+}
+
+.discount-sec-header h4 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.discount-sec-header h1,
+.discount-sec-header span {
+    color: #000;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.discount-sec-header span {
+    color: #F00;
+}
+
+.discount-sec-header p {
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-bottom: -50px;
+}
+
+
+
+.discount-card div:first-child {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.discount-card .left-img {
+    position: absolute;
+    bottom: -150px;
+}
+
+.discount-card .left-img img {
+    width: 80%;
+}
+
+.discount-card .right-img {
+    position: absolute;
+    right: 0;
+}
+
+.discount-card .right-img img:first-child {
+    position: absolute;
+    left: -50%;
+}
+
+.discount-card div:last-child {
+    margin: -2px;
+    padding: 0;
+
+}
+
+.discount-card div:last-child img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
