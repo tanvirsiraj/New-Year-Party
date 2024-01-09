@@ -379,3 +379,52 @@ section {
     gap: 24px;
     margin-bottom: 24px;
 }
+
+/* subscription section  */
+.subscribtion-sec {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-block: 80px;
+}
+
+.subscribtion-sec-content {
+    text-align: center;
+
+}
+
+.subscribtion-sec-content p {
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.subscribtion-sec-content img {
+    width: 150px;
+    height: 150px;
+}
+
+.subscribtion-sec-content div input,
+.subscribtion-sec-content div button {
+    margin-top: 24px;
+    border: none;
+    padding-block: 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.subscribtion-sec-content div input {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding-inline: 10px;
+}
+
+.subscribtion-sec-content div button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    padding-inline: 30px;
+    margin-left: -5px;
+
+}
