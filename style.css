@@ -232,6 +232,7 @@ section {
 
 }
 
+
 .coming-soon-sec div {
     width: 100%;
 }
@@ -270,11 +271,20 @@ section {
 
 }
 
+
 .coming-soon-sec-img img {
     width: 100%;
     border: 10px solid white;
     outline: 15px solid #F00;
     border-radius: 100%;
+}
+
+
+
+.coming-soon-right-img img {
+    width: 140px;
+    height: 140px;
+
 }
 
 /* discount section  */
@@ -302,7 +312,7 @@ section {
 }
 
 .discount-sec-header p {
-    max-width: 1000px;
+    max-width: 900px;
     margin-inline: auto;
     margin-bottom: -50px;
 }
